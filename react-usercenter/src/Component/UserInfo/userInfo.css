@@ -1,0 +1,29 @@
+.information{
+    display : flex;
+    height : 600px;
+    padding : 50px 100px;
+}   
+.info-avatar{
+    width : 100px;
+    height : 100px;
+    margin-top : 20px;
+    border-radius : 50%;
+}
+.info-container{
+    display : flex;
+    flex-wrap : wrap;
+    justify-content : space-between;
+    width : 600px;
+    height : 260px;
+    padding :  30px 50px;
+
+}
+.info-container span{
+    display : flex;
+    width : 250px;
+    padding-left : 20px;
+    line-height : 50px;
+}
+.info-container p{
+    margin-left : 30px;
+}

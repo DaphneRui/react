@@ -1,0 +1,27 @@
+.vcode{
+    display : flex;
+    flex-direction : column;
+    align-items : center;
+}
+
+.vcode-input{
+    width : 100px;
+    margin-right : 10px;
+    color :transparent;
+    text-align : center;
+    text-shadow :0 0 0 black;
+    border : 0;
+    border-bottom : 1px solid black;
+    outline : none;
+}
+
+.vcode-buttons{
+    display : flex;
+    justify-content : space-between;
+    width : 100px;
+    margin-top : 30px;
+}
+.vcode-print{
+    display : none;
+}
+

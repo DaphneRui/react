@@ -1,0 +1,52 @@
+.sider{
+    display : flex;
+    width : 1440px;
+    margin : 0 auto;
+} 
+.sider-right{
+    position : fixed;
+    top : 0;
+    bottom : 0;
+    left : 0;
+    z-index : 9999;
+    display : flex;
+    flex-direction : column;
+    align-items : center;
+    width : 250px;
+    overflow : hidden;
+    color : white;
+    background-color : #151c3b;
+}
+.avatar{
+    width : 100px;
+    height : 100px;
+    margin-top : 150px;
+    margin-bottom : 20px;
+    border-radius : 50%;
+}
+.sider-right p{
+    margin-bottom : 40px;
+}
+.sider-right a{
+    width : 100%;
+    color : white!important
+}
+.sider-container{
+    display : flex; 
+    align-items : center;
+    justify-content : center;
+    width : 100%;
+    height : 60px; 
+    overflow : hidden;
+    color : white;
+    cursor : pointer;
+}
+.sider-container:hover{
+    background-color : #3e3f85;
+} 
+.sider-left{
+    position : absolute;
+    left : 250px;
+    display : flex;
+    padding : 20px 0;
+}

@@ -1,0 +1,20 @@
+.records{
+    min-height : 600px;
+    padding : 20px 40px;
+    
+} 
+.record{
+    display : flex;
+    align-items : center;
+    justify-content : space-between;
+    height : 100px;
+    text-align : center;
+    border-bottom : 2px solid #f3f3f3;
+    
+}
+.record img{
+    width : 80px;
+}
+.record p{
+    padding : 0 10px;
+}

@@ -1,0 +1,20 @@
+.user{
+    padding : 20px 150px;            
+}  
+.tabs{
+    display : flex;
+}
+.tabs h1{
+    margin-right : 30px;
+    cursor : pointer;
+}
+.line{ 
+    width : 128px;
+    height : 5px;
+    background-color : #b873f8;
+}
+.card{
+    width : 900px;
+    margin-top : 20px;
+    box-shadow : 1px 2px 15px #e8e8e8;
+}
